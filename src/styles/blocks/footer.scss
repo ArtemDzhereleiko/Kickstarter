@@ -21,7 +21,7 @@
   }
 
   &__item {
-    padding: 10px;
+    padding: 20px;
     text-decoration: none;
 
     &:not(:last-child) {
@@ -30,7 +30,15 @@
   }
 
   &__facebook:hover {
-    color: $color-facebook;
+    fill: $color-facebook;
+  }
+
+  &__twitter:hover {
+    fill: $color-twitter;
+  }
+
+  &__instagram:hover {
+    fill: $color-instagram;
   }
 
   &__privacy {
