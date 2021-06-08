@@ -35,7 +35,15 @@
   }
 
   &__facebook:hover {
-    color: $color-facebook;
+    fill: $color-facebook;
+  }
+
+  &__twitter:hover {
+    fill: $color-twitter;
+  }
+
+  &__instagram:hover {
+    fill: $color-instagram;
   }
 
   &__privacy {
